@@ -1,5 +1,7 @@
 package ru.sbt.mipt.oop;
 
 public interface FileReader {
-    public SmartHome read();
+    public static SmartHome read() {
+        return null;
+    }
 }

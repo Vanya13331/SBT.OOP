@@ -7,8 +7,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 
 public class ReadFromGSON implements FileReader {
-    @Override
-    public SmartHome read() {
+    public static SmartHome read() {
         Gson gson = new Gson();
         String json = null;
         try {
